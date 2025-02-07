@@ -12,17 +12,17 @@
   justify-content: space-between;
   align-items: center;
   margin: 5px 0;
-  padding: 5px;
+  padding: 2px;
   border: 2px solid #ccc;
   border-radius: 5px;
 }
 
 .urgent {
-  background-color: #d41212;
+  background-color: #e15959;
 }
 
 .small {
-  background-color: #3ddc3d;
+  background-color: #8fed8f;
 }
 
 .completed {
@@ -34,7 +34,7 @@
 }
 
 .filters button {
-  background-color: #95d8e5;
+  background-color: #b6e1ea;
   margin-right: 20px;
 }
 .buttons{

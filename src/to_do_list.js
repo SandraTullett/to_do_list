@@ -6,10 +6,6 @@ const addTaskButton = document.getElementById('addTaskButton');
 const taskList = document.getElementById('taskList');
 const filterButtons = document.querySelectorAll('.filters button');
 
-export function setTestingTest() {
-    const input = document.getElementById('test');
-    input.innerHTML = "testing"
-}
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 export function saveTasks() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
