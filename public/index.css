@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Verdana, Geneva, Tahoma, sans-serif
+}
+
+.body {
+  margin: 0;
+  overflow: hidden
+    /* no scroll bar */
+}
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.urgent {
+  background-color: #d41212;
+}
+
+.small {
+  background-color: #3ddc3d;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.filters {
+  margin-bottom: 30px;
+}
+
+.filters button {
+  background-color: #95d8e5;
+  margin-right: 20px;
+}
+.buttons{
+  background-color: greenyellow;
+  height: 25px;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 5%;
+  border-width: 2px;
+}
+.addtaskbutton{
+  background-color: greenyellow;
+  height: 40px;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 5%;
+  border-width: 2px;
+}

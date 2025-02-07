@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+
+        <link rel="stylesheet" href="index.css">   
+</head>
+
+<body>
+    <h1>To-Do List</h1>
+    <div>
+        <input id="taskInput" type="text" class = buttons placeholder="Task description">
+        <select id="urgency" class = buttons>
+          <!-- need to work out how to start with an empty box for this or a placeholder like 'Priority?'-->  
+            <option value="low priority">Low Priority</option>
+            <option value="normal">Normal</option>
+            <option value="urgent">Urgent</option>
+        </select>
+        <select id="size" class = buttons>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+        <button class ="addtaskbutton" id="addTaskButton">Add Task</button>
+    </div>
+    <Br>
+    <div class="filters">
+        <button id="filterAll">All</button>
+        <button id="filterUrgent">Urgent</button>
+        <button id="filterSmall">Small</button>
+        <button id="filterLarge">Large</button>
+        <button id="filterCompleted">Completed</button>
+    </div>
+    <div>
+    <button id = "test" onclick="setTestingTest()">MY TEST</button>
+    </div>
+    <br>
+    <ul id="taskList"></ul>
+
+   </body>
+
+</html>
