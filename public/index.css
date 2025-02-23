@@ -16,15 +16,12 @@
   border: 2px solid #ccc;
   border-radius: 5px;
 }
-
-.urgent {
-  background-color: #e15959;
-}
-
 .small {
   background-color: #8fed8f;
 }
-
+.urgent {
+  background-color: #e15959;
+}
 .completed {
   text-decoration: line-through;
   opacity: 0.6;
