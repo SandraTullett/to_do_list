@@ -12,14 +12,15 @@
 <body>
     <h1>To-Do List</h1>
     <div>
-        <input id="taskInput" type="text" class = buttons placeholder="Task description">
+        <input id="taskInput" type="text" class = buttons placeholder="Input Task description">
         <select id="urgency" class = buttons>
-          <!-- need to work out how to start with an empty box for this or a placeholder like 'Priority?'-->  
+            <option value=""disabled selected>Select urgency</option>
             <option value="low priority">Low Priority</option>
             <option value="normal">Normal</option>
             <option value="urgent">Urgent</option>
         </select>
         <select id="size" class = buttons>
+            <option value=""disabled selected>Select size</option>
             <option value="small">Small</option>
             <option value="medium">Medium</option>
             <option value="large">Large</option>
