@@ -24,7 +24,6 @@ function renderTasks(filter = "all") {
         })
         //without arrow function this would be written as tasks.forEach(function(task, index) {
         .forEach((task, index) => {
-            debugger
             const taskElement = document.createElement('li');
             taskElement.className = `task ${task.urgency} ${task.size} ${task.completed ? 'completed' : ''}`;
             // without using ? can be written as a standard if-else statement for better readability
@@ -62,7 +61,6 @@ function addTask() {
 
 export function removeTask(index) {
     tasks.splice(index, 1);
-    debugger
     saveTasks();
     renderTasks();
 }
