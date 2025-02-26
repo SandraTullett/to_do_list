@@ -16,6 +16,10 @@
   border: 2px solid #0a0a0a;
   border-radius: 5px;
 }
+input::placeholder {
+  color: black;
+  opacity: 1;
+}
 .small {
   background-color: #8fed8f;
 }
